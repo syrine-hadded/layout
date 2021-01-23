@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap");
+
+.flexy{
+
+    display:flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    height:50px;
+    background-color: rgba(255, 255, 255, 0.884);
+}
+
+.navi{
+    display:flex;
+    justify-content: space-around;
+    width: 300px;
+    padding: 5px;
+}
+ .logo-docplanner {
+    width: 268px;
+    height: 33px;}
+    .A{
+        text-decoration: none;
+        color: gray;
+    }
+    a:hover{
+        color:  #00b39b;
+
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .paragraphe{
+        display: flex;
+        justify-content: space-around;
+        color: grey;
+        line-height: 30px;
+        font-size: 20px;
+        max-width: 1000px;
+        margin: 0 auto;
+       
+       
+    }
+    .title{
+        color: #00b39b;
+        font-family: "Work Sans", sans-serif;
+        font-SIZE: 30px;
+        letter-spacing: -.3px;
+    }
+    .FOR{
+        display: flex;
+        justify-content: space-around;
+        max-width: 1000px;
+        margin: 0 auto;
+      
+    }
+    .patients{
+        background-color:#00b39b;
+        color: cornsilk;
+        width: 220px;
+        height:240px;
+        border-radius: 10px;
+        padding: 50px;
+        font-family: "Work Sans", sans-serif;
+        font-size:20PX;
+    }
+    .doctors{
+        
+        background-color:#3d83df;
+        color: cornsilk;
+        width: 220px;
+        height:240px;
+        border-radius: 10px;
+        padding: 50px;
+        font-family: "Work Sans", sans-serif;
+        font-size:20PX;
+    }
+    .clinics{
+        color: cornsilk;
+        background-color: #1b2734;
+        width: 225px;
+        height:240px;
+        border-radius: 10px;
+        padding: 50px;
+        font-family: "Work Sans", sans-serif;
+        font-size:20PX;
+    }
+    .link{
+        
+        color: cornsilk;
+    }
+    .link:hover{
+        color: cornsilk;
+    }
+    .s1{
+        display: flex;
+        justify-content: space-between;
+        max-width: 1000px;
+        align-items: center;
+    }
+    .logo-list{
+        width: 700px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+        z-index: 0;
+    }
+    .logo-list *{
+        padding: 0 5px;
+    }
+    .para-logo{
+        display: flex;
+        justify-content: center;
+    }
+    .ttl{
+        color:#00b39b ;
+        font-family: "Work Sans", sans-serif;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .svg1 {
+        opacity: 0.2;
+        width: 135px;
+        height: 20px;
+      }
+      .svg1:hover {
+        fill: #00b39b;
+        opacity: 1;
+      }
+      .img1 {
+        filter: grayscale(95%);
+        opacity: 0.5;
+      }
+      .img1:hover {
+        filter: none;
+        opacity: 1;
+      }      
+      .S-partie2{
+          display: flex;
+          justify-content: space-around;
+          background-color: #d6f5f5;
+
+      }
+      .title-p2{
+        color:#00b39b ;
+        font-family: "Work Sans", sans-serif;
+        line-height: 40px;
+        font-size: 34px;
+      }
+      .para-p2{
+          color: grey; 
+          line-height: 30px;
+      }
+     
+       .title-dv{
+         color:#00b39b ;
+         font-size: 20px;
+         line-height: 30px;
+       
+        }
+        .para-dv{
+            color: grey; 
+            font-size: 14px;
+        }
+       .all-dv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height:560px;
+    z-index: 0;
+    justify-content: space-between;
+
+
+      }
+     .dv{
+        width: 230.75px;
+        height: 255px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 20px;
+              
+     }
+     .img-p2{
+        width: 35px;
+        height:35px;
+        align-items: center;
+
+     }    
+     .doc-lg{
+        width: 500px;
+        height:380px;
+     }
+     .partietit{
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+
+     }
+     .tit{
+        color:#00b39b ;
+        font-family: "Work Sans", sans-serif;
+        font-size: 30px;
+        line-height: 50px
+
+
+     }
+     .ptit{
+        color: grey; 
+        line-height: 30px;
+        line-height: 30px;
+     }
+     .cards {
+        margin-top: 120px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 75%;
+      }
+      
+      .card {
+        width: 30%;
+        justify-content: center;
+        border-radius: 2%;
+        border: 1px solid #ddd;
+        margin-bottom: 4%;
+        margin: 10px;
+        transition: 0.2s;
+      }
+      .card img {
+        border-radius: 2% 2% 0 0;
+        width: 100%;
+      }
+      
+      .card div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5%;
+      }
+      .btn {
+        padding: 10px;
+        background-color: #3d83df;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        font-size: 12px;
+      }
+      .card:hover {
+        box-shadow: 10px 5px 5px #ddd;
+      }
+     
